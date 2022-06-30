@@ -14,7 +14,7 @@ class TodoAdapter(
 
 ){
 
-    class TodoViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
+    inner class TodoViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TodoViewHolder {
         return TodoViewHolder(
